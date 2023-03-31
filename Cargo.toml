@@ -1,0 +1,16 @@
+[package]
+name = "osiris"
+description = "Agronomy oriented library"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.68.0"
+readme = "README.md"
+repository = "https://github.com/errob37/osiris/"
+license = "MIT OR Apache-2.0"
+keywords = ["agronomy", "growing_degree_day"]
+categories = ["science", "command-line-utilities"]
+
+[badges]
+maintenance = { status = "actively-developed" }
+
+[dependencies]
