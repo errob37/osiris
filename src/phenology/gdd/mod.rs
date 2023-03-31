@@ -54,3 +54,13 @@ pub enum CalculationMethod {
     /// Degree-days for the day are the sum of the degree-days for the two half-days
     DoubleTriangulation,
 }
+
+pub enum TemperatureUnit {
+    Fahrenheit,
+    Celsius
+}
+
+pub struct Temperature {
+    unit: TemperatureUnit,
+    value: f64
+}
